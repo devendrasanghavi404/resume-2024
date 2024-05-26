@@ -1,0 +1,84 @@
+/* Define custom colors */
+.johndeere { color: #367C2B; } /* John Deere Green */
+.ltiblue { color: #0073C8; } /* LTI Mindtree Blue */
+.birlasoftred { color: #E60000; } /* Birlasoft Red */
+.globallogicorange { color: #FF6600; } /* GlobalLogic Orange */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .subtitle {
+    color: #ccc;
+    font-size: 1.2em;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.main {
+    padding: 15px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: #ccc 1px solid;
+    padding-bottom: 10px;
+}
+
+.experience h3 {
+    margin-bottom: 5px;
+}
+
+.experience h4 {
+    margin-top: 0;
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
+
+footer .signature {
+    float: right;
+}
